@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<!--
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="settings"
+        app:showAsAction="never"
+        />-->
+
+    <item
+        android:id="@+id/menuaa_add"
+        android:icon="@drawable/menu_add"
+        android:enabled="true"
+        android:title="Add"
+        app:showAsAction="never"
+        >
+    </item>
+
+    <item
+        android:id="@+id/menu_setting"
+        android:enabled="true"
+        android:icon="@drawable/menu_setting"
+        android:title="Setting"
+        app:showAsAction="never"
+        >
+    </item>
+
+
+    <item
+        android:id="@+id/menu_share"
+        android:enabled="true"
+        android:icon="@drawable/menu_share"
+        android:title="Share"
+        app:showAsAction="never"
+        >
+    </item>
+</menu>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/add"
+        android:icon="@drawable/menu_add"
+        android:enabled="true"
+        android:title="Add"
+        app:showAsAction="ifRoom"
+        >
+    </item>
+
+    <item
+        android:id="@+id/setting"
+        android:enabled="true"
+        android:icon="@drawable/menu_setting"
+        android:title="Setting"
+        app:showAsAction="ifRoom"
+        >
+    </item>
+
+
+    <item
+        android:id="@+id/share"
+        android:enabled="true"
+        android:icon="@drawable/menu_share"
+        android:title="Share"
+        app:showAsAction="ifRoom"
+        >
+    </item>
+
+    <item
+        android:id="@+id/folder"
+        android:enabled="true"
+        android:icon="@drawable/ic_folder_white_24dp"
+        android:title="folder"
+        app:showAsAction="ifRoom"
+        >
+
+    </item>
+</menu>

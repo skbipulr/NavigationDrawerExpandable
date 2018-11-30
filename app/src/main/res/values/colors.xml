@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="dividerColor">#80CBC4</color>
+    <color name="list_item_title">#AAAAAA</color>
+    <color name="list_group_title">#808080</color>
+    <color name="bottom_color">#FFBBC6C2</color>
+
+    <color name="bgBottomNavigation">#fe485a</color>
+
+</resources>
