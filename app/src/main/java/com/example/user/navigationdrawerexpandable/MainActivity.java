@@ -9,6 +9,7 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Display;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -57,6 +58,12 @@ public class MainActivity extends AppCompatActivity {
         navigationManager=FragmentNavigationManager.getmInstance(this);
         
         initItem();
+
+       /* Display newDisplay = getWindowManager().getDefaultDisplay();
+        int width = newDisplay.getWidth();
+        expandableListView.setIndicatorBounds(width-5, width);*/
+//expandableListView.setIndicatorBounds(140, 150);
+
 
         View listHeaderView= getLayoutInflater().inflate(R.layout.nav_header,null,false);
         expandableListView.addHeaderView(listHeaderView);
@@ -121,6 +128,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
     }
+
 
     private void setupDrawer() {
         mDrawerToggle = new ActionBarDrawerToggle(this,mDrawerLayout,R.string.open,R.string.close)

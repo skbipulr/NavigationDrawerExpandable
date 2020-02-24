@@ -51,10 +51,12 @@
         android:divider="@color/dividerColor"
         android:background="@android:color/white"
         android:dividerHeight="0.5dp"
-        android:indicatorLeft="?android:attr/expandableListPreferredItemIndicatorLeft"
         android:layout_width="235sp"
+        android:groupIndicator="@drawable/group_indicator_selector"
         android:layout_height="match_parent"
         tools:ignore="RtlHardcoded" />
+
+<!--    android:indicatorRight="?android:attr/expandableListPreferredChildIndicatorRight"-->
 
 
 </android.support.v4.widget.DrawerLayout>
